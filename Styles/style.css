@@ -158,4 +158,13 @@ margin: auto
     
     
   }
+
+  .subtitle2{
+    font-size: 44px;
+    color: #1F1F1F;
+    align-content: center;
+    font-style:'Source Sans Pro',Arial,
+    sans-serif;
+    font-weight: bold;
+  }
   
