@@ -5,6 +5,11 @@
 
 /* NAV BAR */
 
+@media (max-width: 575px) {
+  body {
+    background-color:lightblue;
+  }
+}
 .containerlogo{
   display: flex;
   margin:0 auto;
@@ -71,8 +76,8 @@ margin: auto;
     max-width: 300px;
     margin: 32px 96px;
   }
-  
-  /* Variables */
+
+/* Variables */
   
   :root {
     --blue: #0056D2;
@@ -184,7 +189,13 @@ margin: auto;
   .goals-container{
     padding:46px 0;
     font-family: 'Source Sans Pro', sans-serif;
-    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
   }
   .goals-container h3{
     margin-top: 0px;
@@ -212,17 +223,6 @@ margin: auto;
     "leartext getreadytext earntext upskilltext";
   }
  
-  .goals-container {
-    display: grid;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 64px;
-    padding-bottom: 64px;
-    text-align: center;
-    align-items: center;
-    font-size: 20px;
-   
-  }
   .goalstitle {  grid-area: goalstitle; }
   .learning {  grid-area: learning;} 
   .learningtitle{  grid-area: learntitle;}
